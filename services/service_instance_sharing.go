@@ -20,7 +20,7 @@ import (
 )
 
 var _ = ServiceInstanceSharingDescribe("Service Instance Sharing", func() {
-	Context("when User A shares a service instance into User B's space", func() {
+	XContext("when User A shares a service instance into User B's space", func() {
 		// Note: user A is admin and user B is regular user
 		var (
 			broker              services.ServiceBroker

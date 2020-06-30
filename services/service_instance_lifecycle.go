@@ -493,7 +493,7 @@ var _ = ServicesDescribe("Service Instance Lifecycle", func() {
 			})
 		})
 
-		Describe("for a service binding", func() {
+		XDescribe("for a service binding", func() {
 			var appName string
 
 			BeforeEach(func() {
